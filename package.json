@@ -1,0 +1,22 @@
+{
+  "name": "huddle",
+  "version": "1.0.0",
+  "description": "huddle landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbitonga17/huddle-page-blocks.git"
+  },
+  "author": "Patrice Bitonga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbitonga17/huddle-page-blocks/issues"
+  },
+  "homepage": "https://github.com/pbitonga17/huddle-page-blocks#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

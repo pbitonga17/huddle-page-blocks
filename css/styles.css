@@ -1,2 +1,37 @@
-/* font-family: 'Poppins', sans-serif;
-font-family: 'Open Sans', sans-serif; */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.7; }
+
+.header {
+  min-height: 100vh;
+  background-color: #ebfbff;
+  padding: 0 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .header__logo-link img {
+    width: 10rem; }
+  .header__hero-image img {
+    width: 100%; }
+
+.main {
+  padding: 5vw 10vw; }
+  .main__image img {
+    width: 20px; }
+
+.footer {
+  padding: 5vw 10vw; }
+  .footer__huddle-logo {
+    width: 20px; }
