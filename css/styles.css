@@ -45,6 +45,14 @@ body {
   font-weight: 400;
   color: white; }
 
+.footer {
+  color: white; }
+  .footer__footer-contact--text {
+    font-size: clamp(0.8rem, 4vw, 1.5rem); }
+  .footer__footer-list a {
+    color: white;
+    font-size: clamp(0.8rem, 4vw, 1.5rem); }
+
 .header__logo-link a {
   background-color: white;
   text-decoration: none;
@@ -102,12 +110,12 @@ body {
   margin: 0 auto; }
 
 .main__fourth-cont {
-  max-width: 60rem;
+  max-width: 70rem;
   margin: 0 auto;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
   display: grid;
   gap: 3rem;
-  padding: 20px 15px;
+  padding: 30px 25px;
   border-radius: 10px; }
 
 .header {
@@ -154,6 +162,35 @@ body {
     gap: 2rem; }
 
 .footer {
-  padding: 5vw 10vw; }
+  padding: 100px 10vw;
+  background-color: #00252e;
+  display: grid;
+  gap: 5rem; }
   .footer__huddle-logo {
-    width: 20px; }
+    width: 20rem; }
+  .footer__huddle-logo path {
+    fill: white; }
+  .footer__logo-contacts {
+    display: grid;
+    gap: 2rem; }
+  .footer__footer-contact {
+    display: grid;
+    gap: 2rem; }
+    .footer__footer-contact--contacts {
+      display: flex;
+      align-items: baseline;
+      gap: 2rem; }
+  .footer__footer-list {
+    display: grid;
+    gap: 1.5rem; }
+  .footer__footer-list ul {
+    display: grid;
+    gap: 1.5rem; }
+  .footer__footer-list li {
+    list-style-type: none; }
+  .footer__footer-list a {
+    text-decoration: none; }
+  .footer__footer-icon {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; }

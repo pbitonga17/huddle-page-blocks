@@ -37,3 +37,15 @@
         }
     }
 }
+.footer {
+    color: white;
+    &__footer-contact {
+        &--text {
+            font-size: clamp(0.8rem, 4vw, 1.5rem);
+        }
+    }
+    &__footer-list a {
+        color: white;
+        font-size: clamp(0.8rem, 4vw, 1.5rem);
+    }
+}

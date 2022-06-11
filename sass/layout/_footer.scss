@@ -1,7 +1,45 @@
 .footer {
-    padding: 5vw 10vw;
+    padding: 100px 10vw;
+    background-color: $color-dark-cyan;
+    display: grid;
+    gap: 5rem;
 
     &__huddle-logo {
-        width: 20px;
+        width: 20rem;
+    }
+    &__huddle-logo path {
+        fill: white;
+    }
+    &__logo-contacts {
+        display: grid;
+        gap: 2rem;
+    }
+    &__footer-contact {
+        display: grid;
+        gap: 2rem;
+        &--contacts {
+            display: flex;
+            align-items: baseline;
+            gap: 2rem;
+        }
+    }
+    &__footer-list {
+        display: grid;
+        gap: 1.5rem;
+    }
+    &__footer-list ul {
+        display: grid;
+        gap: 1.5rem;
+    }
+    &__footer-list li {
+        list-style-type: none;
+    }
+    &__footer-list a {
+        text-decoration: none;
+    }
+    &__footer-icon {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
     }
 }
