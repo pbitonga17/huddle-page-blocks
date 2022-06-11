@@ -194,3 +194,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 2rem; }
+
+@media screen and (min-width: 1024px) {
+  .header {
+    display: flex;
+    flex-direction: row; } }
