@@ -1,0 +1,34 @@
+.header {
+    &__logo-link a {
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        padding: 5px 30px;
+        border-radius: 100px;
+        box-shadow: 0 8px 15px rgba($color: #000000, $alpha: 0.1) ;
+    }
+    &__hero-text {
+        &--btn {
+            width: 70%;
+            background-color: $color-primary-pink;
+            padding: 10px ;
+            text-decoration: none;
+            margin: 0 auto;
+            border-radius: 100px;
+            box-shadow: 0 8px 15px rgba($color: #000000, $alpha: 0.1);
+        }
+    }
+}
+.main {
+    &__text {
+        &--btn {
+            width: 70%;
+            background-color: $color-primary-pink;
+            padding: 10px ;
+            text-decoration: none;
+            margin: 0 auto;
+            border-radius: 100px;
+            box-shadow: 0 8px 15px rgba($color: #000000, $alpha: 0.1);
+        }
+    }
+}
