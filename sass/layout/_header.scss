@@ -66,4 +66,8 @@
 
     }
 
+    @include respond-desktop {
+        display: grid;
+        place-content: center;
+    }
 }
