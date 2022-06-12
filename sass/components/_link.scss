@@ -5,7 +5,10 @@
         color: black;
         padding: 5px 30px;
         border-radius: 100px;
-        box-shadow: 0 8px 15px rgba($color: #000000, $alpha: 0.1) ;
+        box-shadow: 0 8px 15px rgba($color: #000000, $alpha: 0.1);
+        transition: all .1s;
+
+        @include btn-animation
     }
     &__hero-text {
         &--btn {
@@ -16,12 +19,15 @@
             margin: 0 auto;
             border-radius: 100px;
             box-shadow: 0 8px 15px rgba($color: #000000, $alpha: 0.1);
+            transition: all .1s;
 
             @include respond-desktop {
                 margin: 0;
                 
             }
+            @include btn-animation
         }
+        
     }
 }
 .main {
@@ -34,6 +40,11 @@
             margin: 0 auto;
             border-radius: 100px;
             box-shadow: 0 8px 15px rgba($color: #000000, $alpha: 0.1);
+            transition: all .1s;
+
+            @include btn-animation
         }
+
+        
     }
 }

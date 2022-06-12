@@ -14,6 +14,8 @@
         align-items: center;
         padding: 50px 5vw;
 
+        animation: moveInBottom .7s ease-out;
+
         @include respond-wide-screen {
             margin: 0 10vw;
         }
@@ -52,6 +54,8 @@
         display: grid;
         gap: 2rem;
         text-align: center;
+        animation: moveInRight .7s ease-out;
+        
 
         &--heading {
             @include respond-desktop {
@@ -64,6 +68,9 @@
             }
         }
 
+    }
+    &__hero-image {
+        animation: moveInLeft .7s ease-out;
     }
 
     @include respond-desktop {
