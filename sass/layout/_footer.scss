@@ -26,6 +26,12 @@
     &__footer-list {
         display: grid;
         gap: 1.5rem;
+
+        @include respond-desktop {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            place-items: center;
+        }
     }
     &__footer-list ul {
         display: grid;
@@ -41,5 +47,22 @@
         display: flex;
         justify-content: center;
         gap: 2rem;
+
+        @include respond-desktop {
+            align-items: center;
+        }
+    }
+
+    @include respond-desktop {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    @include respond-wide-screen {
+        padding: 5rem 10vw;
+    }
+    @include respond-4k-screen {
+        padding: 5rem 15vw;
     }
 }
